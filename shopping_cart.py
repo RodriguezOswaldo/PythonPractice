@@ -25,3 +25,5 @@ class ShoppingCart(object):
 my_cart = ShoppingCart("Eric")
 my_cart.add_item("Guitar", 20)
 print(my_cart.items_in_cart)
+# my_cart.remove_item("Guitar")
+# print(my_cart.items_in_cart)
