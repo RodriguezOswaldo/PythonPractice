@@ -6,29 +6,28 @@ import math
 
 
 def displayWelcome():
-    print "welcome to my game"
+    print "Welcome to my area and perimeter calculator"
 # TODO -> Add circle area function here
 def calcAreaCircle(radius):
-    PI = 3.1415
-    return PI * radius * radius
+    return math.pi * radius * radius
 # TODO -> Add circle perimeter function here
 def calcPerimeterCircle(radius):
-    pass
+    return 2 * math.pi * radius
 # TODO -> Add square area function here
 def calcAreaSquare(side):
-    pass
+    return side * side
 # TODO -> Add Square perimeter function here
 def calcPerimeterSquare(side):
-    pass
+    return side * 4
 # TODO -> Add rectangle area function here
 def calcAreaRect(width, height):
-    pass
+    return width * height
 # TODO -> Add rectangle perimeter function here
 def calcPerimeterRect(width, height):
-    pass
+    return 2 * (height + width)
 # TODO -> Add triangle area function here
 def calcAreaTriangle(base, height):
-    pass
+    return base * height / 2
 # =====================================================================
 
 # Main Code - DO NOT EDIT ANYTHING BELOW.  Add your functions above
